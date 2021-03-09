@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toolbar"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/show_headBar"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/show_head" />
+
+        <LinearLayout
+            android:id="@+id/Linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/first_Bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_Bar"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:id="@+id/second_Bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/second_Bar" />
+
+            <TextView
+                android:id="@+id/third_Bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/third_Bar" />
+
+            <TextView
+                android:id="@+id/fourth_Bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/fourth_Bar" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</FrameLayout>

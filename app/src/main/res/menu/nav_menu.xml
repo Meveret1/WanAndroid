@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Favorites"
+            android:icon="@mipmap/ic_favorites"
+            android:title="@string/favorites" />
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@mipmap/ic_about"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_Share"
+            android:icon="@mipmap/ic_share"
+            android:title="@string/share" />
+
+
+    </group>
+</menu>
